@@ -1,3 +1,4 @@
+package Refresher_ntroduction_Java_Input;
 import java.util.Scanner;
 
 public class Q8_A_says_Hi_to_B {

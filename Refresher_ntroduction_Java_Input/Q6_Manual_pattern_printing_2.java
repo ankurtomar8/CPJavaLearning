@@ -1,3 +1,4 @@
+package Refresher_ntroduction_Java_Input;
 public class Q6_Manual_pattern_printing_2 {
     public static void main(String[] args){
         System.out.println("    *");
