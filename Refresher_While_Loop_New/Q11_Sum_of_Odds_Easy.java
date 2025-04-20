@@ -11,7 +11,7 @@ public class Q11_Sum_of_Odds_Easy {
         while(startNumber <= inputNumber){
 
           if(startNumber % 2 != 0){
-              sum += startNumber;
+              sum += startNumber; 
             }
             startNumber++;
 
