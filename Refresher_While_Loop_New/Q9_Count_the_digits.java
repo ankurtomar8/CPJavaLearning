@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Q9_Count_the_digits {
        public static void main(String args[]){
-
         Scanner sc = new Scanner(System.in);
           
         int T = sc.nextInt(); 
@@ -22,7 +21,6 @@ public class Q9_Count_the_digits {
         }
         System.out.println(counter++);
     }
-      
         T--;
 
     }
