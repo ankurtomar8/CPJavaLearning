@@ -59,5 +59,6 @@ public class Q8_Check_if_Array_is_Sorted {
       int result = checkifArrayisSorted(arr,n);
       System.out.print(result); 
     }
+
     
 }
