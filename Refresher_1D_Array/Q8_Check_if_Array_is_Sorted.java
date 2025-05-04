@@ -46,6 +46,19 @@ public class Q8_Check_if_Array_is_Sorted {
         return 1;
     } 
 
-    
+        public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+       
+        int n = sc.nextInt(); // input
+        int[] arr = new int[n];
+        // array input 
+        for(int i = 0; i < n ; i++){
+            arr[i] = sc.nextInt();
+        }   
+           
+      int result = checkifArrayisSorted(arr,n);
+      System.out.print(result); 
+    }
+
     
 }
