@@ -1,4 +1,3 @@
-package Refresher_ntroduction_Java_Input;
 import java.util.Scanner;
 
 public class Q2_Print_sentence {
