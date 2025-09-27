@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q2_Profit_Or_Loss {
+public class Q1_2_Profit_Or_Loss {
 
     
      public static void main(String[] args){
@@ -17,7 +17,7 @@ public class Q2_Profit_Or_Loss {
             System.out.println(B-A);
             return 1;
         } else if(A > B ){
-           //anglesum = 180;
+        
            System.out.println(A-B);
             return -1;
            }

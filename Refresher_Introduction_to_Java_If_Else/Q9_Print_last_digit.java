@@ -1,4 +1,4 @@
-
+     
 import java.util.Scanner;
 
 public class Q9_Print_last_digit {
