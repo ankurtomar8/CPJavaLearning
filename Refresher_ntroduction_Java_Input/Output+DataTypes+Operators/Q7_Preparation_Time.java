@@ -1,4 +1,4 @@
-package Refresher_ntroduction_Java_Input;
+
 import java.util.Scanner;
 
 public class Q7_Preparation_Time {
