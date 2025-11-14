@@ -1,4 +1,4 @@
-package Refresher_ntroduction_Java_Input;
+
 import java.util.Scanner;
 
 public class Q6_Remaining_Bake_Time {

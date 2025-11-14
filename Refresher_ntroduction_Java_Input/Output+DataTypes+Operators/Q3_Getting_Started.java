@@ -1,4 +1,4 @@
-package Refresher_ntroduction_Java_Input;
+
 /*
 Problem Description
 Print the following text in the output:
