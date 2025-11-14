@@ -9,21 +9,26 @@ public class Q8_Confusion_In_Electricity_Bill {
         Confusion_In_Electricity_Bill(n);
     }
 
-    public static void Confusion_In_Electricity_Bill(int n){
+    public static void Confusion_In_Electricity_Bill(int units){
      
-     if(n >= 50 ){     
-       n = (int) (0.5 * n); 
-        System.out.println(n);
-     }else if( n > 50 && n <=100){
-      n = (int) (0.75 * n);
-      System.out.println(n);
-     }else if(n > 100 && n <= 250){
-      n = (int) (1.20 * n);
-      System.out.println(n);
-     }else if(n > 250 ){
-      n = (int) (1.50 * n);
-      System.out.println(""+n);
-     }
+      double bill = 0;
+
+        if (units <= 50) {
+            bill = units * 0.50;
+        } else if (units <= 150) {
+            bill = 50 * 0.50 + (units - 50) * 0.75;
+        } else if (units <= 250) {
+            bill = 50 * 0.50 + 100 * 0.75 + (units - 150) * 1.20;
+        } else {
+            bill = 50 * 0.50 + 100 * 0.75 + 100 * 1.20 + (units - 250) * 1.50;
+        }
+
+        // Add 20% surcharge
+        bill += bill * 0.20;
+
+        // Print integral value
+        System.out.println("Electricity Bill: " + (int) bill);
+
 
     }
 }
