@@ -11,14 +11,14 @@ public class Q1_2_Profit_Or_Loss {
        int angleSum = returnAngleSumProperty(costPrice,sellingPrice);
        System.out.println("Sum property" +angleSum);
     }
-    public static int returnAngleSumProperty(int A,int B){
+    public static int returnAngleSumProperty(int costPrice,int sellingPrice){
       
-        if(A < B){
-            System.out.println(B-A);
+        if(costPrice < sellingPrice){
+            System.out.println(sellingPrice-costPrice);
             return 1;
-        } else if(A > B ){
+        } else if(costPrice > sellingPrice ){
         
-           System.out.println(A-B);
+           System.out.println(costPrice-sellingPrice);
             return -1;
            }
         return 0;
