@@ -17,6 +17,7 @@ public class Q13_Easy_Power {
         // 4 x 4 x 4 x 4 
         while(exponent > 0){
             startNumber =  startNumber * baseNumber;
+            System.out.println("Iteration "+startNumber);
             exponent--;
         }
         System.out.print(startNumber);
