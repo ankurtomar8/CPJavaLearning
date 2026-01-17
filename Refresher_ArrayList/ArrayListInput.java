@@ -7,7 +7,7 @@ public class ArrayListInput {
         for (int i = 0 ; i < arr.size();i++){
             int val = arr.get(i);
 
-            if(val % 5 == 0 || val % 7 == 0){
+            if(val % 5 == 0 && val % 7 == 0){
                 ans.add(val);
             }
 
@@ -32,3 +32,4 @@ public class ArrayListInput {
     }
     
 }
+
